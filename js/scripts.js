@@ -15,4 +15,9 @@ $(document).ready(function(){
 
   });
 
+  $(".clickable-4").click(function(){
+    $("#def-hidden-4").toggle();
+    $("#def-showing-4").toggle();
+
+  });
 });
